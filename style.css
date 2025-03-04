@@ -78,8 +78,6 @@ Author Url:  https://www.newspaperreports.com
     max-width: 100%;
     overflow: hidden;
     line-height: 18px;
-    display: flex;
-    justify-content: center;
 }
 
 .googleAds_ct img {
