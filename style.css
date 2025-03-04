@@ -66,6 +66,13 @@ Author Url:  https://www.newspaperreports.com
     justify-content: center;
 }
 
+.header_gAds_ct {
+    width: 90%;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
 .googleAds_ct {
     display: flex;
     justify-content: center;
