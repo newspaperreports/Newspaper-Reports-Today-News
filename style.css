@@ -61,7 +61,8 @@ Author Url:  https://www.newspaperreports.com
 /* Start Global Google Ads Section Design */
 .googleAds_area {
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 0 auto;
+	padding: 20px 0px;
     display: flex;
     justify-content: center;
 }
@@ -73,21 +74,8 @@ Author Url:  https://www.newspaperreports.com
     overflow: hidden;
 }
 
-.googleAds_ct {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    line-height: 18px;
-    overflow: hidden;
-}
-
 .googleAds_ct img {
     max-width: 100%;
-    display: block;
-    width: 100%;
-    height: 100%;
 }
 
 /* AS - Media Ads Area */
