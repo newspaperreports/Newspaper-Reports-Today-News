@@ -126,7 +126,8 @@ Author Url:  https://www.newspaperreports.com
 
 /* Start Global Posts Meta Author Area */
 .author_info {
-    margin: 10px 0px;
+    margin: 5px 0px;
+    padding: 5px 0px;
 }
 
 .author_name {
