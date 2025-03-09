@@ -1,2 +1,6 @@
 RewriteEngine On
 RewriteRule ^robots.txt$ robots.php [L]
+<FilesMatch "\.xml$">
+    ForceType application/xml
+    Header set Content-Type "application/xml"
+</FilesMatch>
