@@ -191,12 +191,10 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-.topNavbar .npr_mainLogo {
-    
-}
 
 .topNavbar .mainLogo a {
     display: block;
+    font: 700 24px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
     color: #303030;
 }
 
