@@ -4,7 +4,7 @@ echo file_get_contents("https://raw.githubusercontent.com/newspaperreports/repos
 ?>
 User-agent: *
 Disallow: 
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://www.newspaperreports.com/sitemap.xml
 
 
 
