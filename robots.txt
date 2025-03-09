@@ -2,5 +2,9 @@
 header("Content-Type: text/plain");  
 echo file_get_contents("https://raw.githubusercontent.com/newspaperreports/repository/main/robots.txt");
 ?>
+User-agent: *
+Disallow: 
+Sitemap: https://yourwebsite.com/sitemap.xml
+
 
 
