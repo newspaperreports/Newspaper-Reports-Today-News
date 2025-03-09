@@ -191,12 +191,13 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+.topNavbar .npr_mainLogo {
+    
+}
 
 .topNavbar .mainLogo a {
     display: block;
-    font: var(--global-cg-link-font);
     color: #303030;
-    
 }
 
 .topNavbar .mainLogo a span {
