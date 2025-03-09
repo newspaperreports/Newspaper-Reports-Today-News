@@ -67,6 +67,10 @@ Author Url:  https://www.newspaperreports.com
     justify-content: center;
 }
 
+.googleAds_meta {
+    display: none;
+}
+
 .header_gAds_ct {
     width: 90%;
     max-width: 100%;
@@ -78,7 +82,6 @@ Author Url:  https://www.newspaperreports.com
     max-width: 100%;
     overflow: hidden;
     line-height: 18px;
-    display: none;
 }
 
 .googleAds_ct img {
