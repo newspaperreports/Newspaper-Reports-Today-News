@@ -1078,9 +1078,12 @@ a {
 }
 /* ------------------- */
 
+.topHeadLine_ct {
+    margin-bottom: 20px;
+}
 
 .topHeadLine {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .topHeadLine h3 {
@@ -1101,13 +1104,13 @@ a {
 
 .topHeadLine_info {
     flex-flow: column;
-    gap: 10px;
 }
 
 .topHeadLine_info a {
     font: 700 14px / 16px var(--global-item-headline-font);
     border-bottom: 1px solid var(--global-border-any-side-color);
-    padding-bottom: 5px;
+    margin: 10px 0 0;
+    padding-bottom: 10px;
     letter-spacing: 0.5px;
 }
 
