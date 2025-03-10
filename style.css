@@ -599,7 +599,7 @@ a {
 
 .asM_ct_item_headLine .asM_ct_item_title a {
     display: block;
-    margin: 5px 0px;
+    margin: 6px 0px;
     color: #303030;
     font: 700 32px / 34px var(--global-item-headline-font);
 }
