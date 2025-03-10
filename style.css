@@ -30,6 +30,7 @@ Author Url:  https://www.newspaperreports.com
     --global-asM-ads-author-hover-color: #b60a7c;
     --font-family-global: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
     --global-item-headline-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-top-headlines-font: 'Georgia Pro', Georgia, 'Droid Serif', serif;
     --global-item-hero-headline-color: #303030;
     --global-item-headline-color: #000;
     --global-item-headline-hover-color: #626262;
@@ -1079,12 +1080,11 @@ a {
 
 
 .topHeadLine {
-    margin-top: -3px;
     margin-bottom: 10px;
 }
 
 .topHeadLine h3 {
-    font: italic 700 26px / 28px var(--global-item-headline-font);
+    font: 700 italic 24px / 26px var(--global-top-headlines-font);
     position: relative;
 }
 
