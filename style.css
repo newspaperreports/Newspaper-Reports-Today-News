@@ -1035,7 +1035,6 @@ a {
 
 .tP_ad_athor a {
     font: 600 12px / 18px var(--global-third-party-athor-font);
-    margin-right: 2px;
     color: var(--global-third-party-athor-color);
 }
 
