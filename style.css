@@ -1093,7 +1093,7 @@ a {
 }
 
 .topHeadLine h3 {
-    font: 700 italic 24px / 26px var(--global-top-headlines-font);
+    font: 700 italic 24px / 18px var(--global-top-headlines-font);
     position: relative;
 }
 
