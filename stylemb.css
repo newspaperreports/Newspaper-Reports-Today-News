@@ -37,7 +37,8 @@
     width: 50px;
 }
 
-.mb_tMenu_icon .fas {
+.mb_tMenu_icon .fas,
+.mb_mainSearch_icon .fas {
     font-size: 20px;
     font-weight: 800;
     padding: 6px 7px;
@@ -66,7 +67,7 @@
     height: 200px;
     top: 50px;
     right: 0;
-	z-index: 999;
+    z-index: 999;
     align-items: center;
     justify-content: center;
     border-top: 3px solid rgb(0, 152, 254);
