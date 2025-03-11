@@ -526,7 +526,9 @@ a {
 }
 
 .layout_media_area {
+    contain: layout;
     width: 30%;
+    overflow-anchor: none;
 }
 
 .asM_global_item_cg a {
