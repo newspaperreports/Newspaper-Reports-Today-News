@@ -525,12 +525,6 @@ a {
     width: 70%;
 }
 
-.layout_media_area {
-    contain: layout;
-    width: 30%;
-    overflow-anchor: none;
-}
-
 .asM_global_item_cg a {
     display: block;
     margin: 5px 0px;
@@ -1080,9 +1074,15 @@ a {
 
 
 /* Start Global Right Layout Media Section Design */
+.layout_media_area {
+    contain: layout;
+    width: 30%;
+    overflow-anchor: none;
+}
+
 .layout_media_info {
     position: relative;
-    padding: 0px 20px;
+    padding: 0 0 0 20px;
 }
 /* ------------------- */
 
