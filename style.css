@@ -10,7 +10,8 @@ body {
     background: unset;
     word-wrap: break-word;
     user-select: none;
-    -weblit-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 
 /* 
