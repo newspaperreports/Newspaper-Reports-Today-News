@@ -1042,9 +1042,12 @@ a {
     color: #000;
 }
 
+.tP_ad_athor .tP_ad_stant {
+    margin: 0px 2px;
+}
+
 .tP_ad_athor .tP_ad_click {
-    border-bottom: 1px solid;
-    margin-left: 2px;
+    border-bottom: 1px solid;    
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
