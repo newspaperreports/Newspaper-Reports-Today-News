@@ -6,9 +6,11 @@
 
 body {
     font: 10px / 13px 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
-    color: #1b4e81;
+    color: #000;
     background: unset;
     word-wrap: break-word;
+    user-select: none;
+    -weblit-user-select: none;
 }
 
 /* 
