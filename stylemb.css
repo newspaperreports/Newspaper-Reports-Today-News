@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+.as_responsive_area {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
 
 .mb_Menu_section {
     border-top: 5px solid rgb(0, 152, 254);
-
 }
 
 .mb_topMenu_ct {
