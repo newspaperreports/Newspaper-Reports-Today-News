@@ -40,15 +40,6 @@
 .mb_tMenu_icon .fas {
     font-size: 20px;
     font-weight: 800;
-    padding: 6px 8px;
-    background-color: #37e054;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.mb_mainSearch_icon .fas {
-    font-size: 20px;
-    font-weight: 800;
     padding: 6px 7px;
     background-color: #37e054;
     border-radius: 50%;
