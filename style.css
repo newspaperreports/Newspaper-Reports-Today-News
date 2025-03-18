@@ -988,25 +988,26 @@ a {
 }
 
 .mainFooter_info a {
-    color: var(--global-cg-link-color);
+/*  color: var(--global-cg-link-color); */
+    background-color: #f52f5a;
 }
 
 .mainFooter_info img {
     max-width: 100%;
 }
 
-.footer_logo a {
+/* .footer_logo a {
     display: flex;
     flex-flow: column;    
     text-align: start;
     font-size: 14px;
-}
+} */
 
-.footer_logo img {
+/* .footer_logo img {
     width: 100px;
     display: block;
     padding-bottom: 5px;
-}
+} */
 
 .ft_headLine h3 {
     display: inline-block;
@@ -1098,7 +1099,7 @@ a {
 }
 
 .copyRightAuthor_info a {
-    color: #00FF7F;
+    color: #fff;
     
 }
 /* End Copy Right Area Design */
