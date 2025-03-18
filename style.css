@@ -173,8 +173,9 @@ a {
 
 .topNavbar .mainLogo a {
     display: block;
-    font: 700 24px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    /* font: 700 24px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif; */
     color: #303030;
+    padding: 5px 0;
 }
 
 .topNavbar .mainLogo a span {
