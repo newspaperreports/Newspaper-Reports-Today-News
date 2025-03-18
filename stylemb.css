@@ -51,9 +51,11 @@
     cursor: pointer;
 }
 
-.mb_tMenu_logo h1 a {
+.mb_tMenu_logo a {
     text-decoration: none;
-    font: 700 26px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    /* font: 700 26px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif; */
+    display: block;
+    padding: 5px 0;
 }
 
 .gSearch_icon .fa {
