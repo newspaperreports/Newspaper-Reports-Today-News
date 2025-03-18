@@ -189,11 +189,10 @@ Contact:     asupdatemedia518@gmail.com
     z-index: 999;
 }
 
-.menu h1 {
-    color: #8000ff;
-    font-weight: 800;
+.menu a {
+    display: block;
     text-align: right;
-    padding: 15px 0;
+    padding: 5px 0;
     padding-right: 10px;
     pointer-events: none;
     border-bottom: 3px solid #8000ff;
@@ -227,7 +226,7 @@ Contact:     asupdatemedia518@gmail.com
 .mb_close_icon .fas {
     color: #fff;
     position: absolute;
-    top: 5px;
+    top: 15px;
     left: 25px;
     z-index: 1;
     font-size: 25px;
