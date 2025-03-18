@@ -1,0 +1,91 @@
+/* 
+-----------------------------------------------
+Newspaper Reports Template Style
+Name:        Newspaper Reports
+License:     Premium Version
+Version:     3.0
+Author:      Newspaper Reports
+Author Url:  https://www.newspaperreports.com
+Contact:     asupdatemedia518@gmail.com
+----------------------------------------------- */
+
+:root {
+    --global-cg-link-font: 700 14px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-author-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-author-font-color: #000;
+    --global-asM-ads-author-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-asM-ads-author-color: #626262;
+    --global-asM-ads-author-hover-color: #b60a7c;
+    --global-nprAS-hd-ads-content: 'Advertisement - scroll for more content';
+    --global-nprAS-hd-ads-onylyContent: 'Advertiser';
+    --global-nprAS-hd-ads-color: #787878;
+    --global-nprAS-hd-ads-font: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --font-family-global: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-item-headline-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-top-headlines-font: 'Georgia Pro', Georgia, 'Droid Serif', serif;
+    --global-item-hero-headline-color: #303030;
+    --global-item-headline-color: #000;
+    --global-item-headline-hover-color: #626262;
+    --global-item-description-font: 'Georgia Pro', Georgia, 'Droid Serif', serif;
+    --global-item-description-color: #303030;
+    --global-item-description-hover-color: #575050fb;
+    --global-item-tag-font: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-item-tag-color: #AA1E23;
+    --global-item-publish-time-color: #626262;
+    --global-border-any-side-color: #c2c2c2;
+    --global-third-party-athor-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-third-party-athor-color: #626262;
+    --txt-whi-color: #ffffff;
+    --txt-headline-bg-white: #FFFFFF;
+    --txt-bl-color: #000;
+    --gbMenuBg-color: #303030;
+    --cgHover-color: #ff00bf;
+    --hero-pTitleHover-color: #01eeff;
+    --btnBx-color: #04AA6D;
+    --global-cg-link-color: #fff;
+    --global-cg-link-hover-color: #00FF7F;
+    --global-border-top-color: rgb(0, 152, 254);
+    
+}
+
+/* Start AS - Newspaepr Reports Header Global Ads Section Design */
+.npr_as_hdAds_ct {
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 10px auto 30px auto;
+    overflow: hidden;
+}
+
+.npr_as_hdAds_ct::before {
+    text-align: center;
+    display: block;
+    content: var(--global-nprAS-hd-ads-content, 'Advertisement');
+    font: 12px / 18px var(--global-nprAS-hd-ads-font);
+    color: var(--global-nprAS-hd-ads-color);
+}
+
+.googleAds_ct .npr_as_nativAds {
+    font: 16px / 18px var(--global-item-headline-font);
+    padding-bottom: 20px;
+}
+
+.npr_as_hdAds_ct img {
+    max-width: 100%;
+}
+/* End AS - Newspaepr Reports Header Global Ads Section Design */
+
+/* Start AS - NPR Global Post Screen Ads Section Design  */
+.npr_asGlobal_ads_ct {
+    width: 100%;
+    
+}
+
+.npr_asGlobal_ads_ct::before {
+    text-align: center;
+    display: block;
+    content: var(--global-nprAS-hd-ads-onlyContent, 'Advertisement');
+    font: 12px / 18px var(--global-nprAS-hd-ads-font);
+    color: var(--global-nprAS-hd-ads-color);
+}
+/* End AS - NPR Global Post Screen Ads Section Design  */

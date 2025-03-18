@@ -1,0 +1,264 @@
+/* Newspaper Reports Custom Global Ads Design */
+
+/* 
+-----------------------------------------------
+Newspaper Reports Template Style
+Name:        Newspaper Reports
+License:     Premium Version
+Version:     3.0
+Author:      Newspaper Reports
+Author Url:  https://www.newspaperreports.com
+Contact:     asupdatemedia518@gmail.com
+----------------------------------------------- */
+
+:root {
+    --global-cg-link-font: 700 14px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-author-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-author-font-color: #000;
+    --global-nprAS-hd-ads-content: 'Advertisement - scroll for more content';
+    --global-nprAS-hd-ads-onylyContent: 'Advertiser';
+    --global-nprAS-hd-ads-color: #787878;
+    --global-nprAS-hd-ads-font: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-asM-ads-author-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-asM-ads-author-color: #626262;
+    --global-asM-ads-author-hover-color: #b60a7c;
+    --font-family-global: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-item-headline-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-top-headlines-font: 'Georgia Pro', Georgia, 'Droid Serif', serif;
+    --global-item-hero-headline-color: #303030;
+    --global-item-headline-color: #000;
+    --global-item-headline-hover-color: #626262;
+    --global-item-description-font: 'Georgia Pro', Georgia, 'Droid Serif', serif;
+    --global-item-description-color: #303030;
+    --global-item-description-hover-color: #575050fb;
+    --global-item-tag-font: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-item-tag-color: #AA1E23;
+    --global-item-publish-time-color: #626262;
+    --global-border-any-side-color: #c2c2c2;
+    --global-third-party-athor-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-third-party-athor-color: #626262;
+    --txt-whi-color: #ffffff;
+    --txt-headline-bg-white: #FFFFFF;
+    --txt-bl-color: #000;
+    --gbMenuBg-color: #303030;
+    --cgHover-color: #ff00bf;
+    --hero-pTitleHover-color: #01eeff;
+    --btnBx-color: #04AA6D;
+    --global-cg-link-color: #fff;
+    --global-cg-link-hover-color: #00FF7F;
+    --global-border-top-color: rgb(0, 152, 254);
+    
+}
+
+.nrp_rL_ads_area {
+    width: 100%;
+    margin: 20px 0px;
+    height: calc(100vh + 350px);
+}
+
+.npr_rL_last_ads {
+    height: 100vh;
+}
+
+.npr_rL_ads_ct {
+    position: sticky;
+    top: 100px;
+}
+
+.npr_rL_ads_info {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.npr_as_ads img {
+    width: 100%;
+    height: auto;
+}
+
+.npr_as_ads::before {
+    content: var(--global-nprAS-hd-ads-onylyContent, 'Advertiser');
+    font: 500 12px / 18px var(--global-nprAS-hd-ads-font);
+    color: var(--global-nprAS-hd-ads-color);
+}
+
+
+/* Start Global Right Layout Media Section Design */
+.layout_media_area {
+    contain: layout;
+    width: 30%;
+    overflow-anchor: none;
+    margin: 0 0 0 20px;
+}
+
+.layout_media_info {
+    position: relative;
+    /* margin: 0 0 0 30px; */
+    
+}
+/* ------------------- */
+
+.topHeadLine_ct {
+    margin-bottom: 20px;
+}
+
+.topHeadLine {
+    margin-bottom: 10px;
+}
+
+.topHeadLine h1,
+.npr_rL_td_headLine h1 {
+    font: 700 italic 24px / 18px var(--global-top-headlines-font);
+    position: relative;
+}
+
+.topHeadLine h1::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 10px;
+    left: 0;
+    bottom: -5px;
+    z-index: -1;
+    background-color: #00FF7F;
+}
+
+.topHeadLine_info {
+    flex-flow: column;
+}
+
+.topHeadLine_info a {
+    font: 700 14px / 16px var(--global-item-headline-font);
+    border-bottom: 1px solid var(--global-border-any-side-color);
+    margin: 10px 0 0;
+    padding-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.topHeadLine_info a:hover {
+    color: #1665cf;
+}
+
+@media (min-width: 560px) and (max-width: 750px) {
+    .topHeadLine .npr_top_headLine span {
+        padding-top: 5px;
+        display: block;
+    }
+}
+
+@media (max-width: 560px) {
+    .topHeadLine .npr_top_headLine {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .topHeadLine .npr_top_headLine span {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 460px) {
+    .topHeadLine .npr_top_headLine span {
+        font-size: 12px;
+    }
+}
+
+
+/* Start Trending Area */
+.npr_rl_td_area {
+    margin-bottom: 20px;
+}
+
+.npr_rL_td_headLine {
+    padding-bottom: 20px;
+}
+
+.npr_rL_td_headLine .npr_td_title::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 10px;
+    left: 0;
+    bottom: -5px;
+    z-index: -1;
+    background-color: #00FF7F;
+}
+
+.npr_rL_td_ul {
+    list-style: none;
+}
+
+.npr_rL_td_li {
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--global-border-any-side-color);
+    margin-bottom: 15px;
+}
+
+.npr_rL_td_info img {
+    max-width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+    object-position: top;
+}
+
+.npr_rL_td_thumb img {
+    display: inline;
+    width: 90px;
+    height: 70px;
+    float: left;
+    border: 1px solid var(--global-border-any-side-color);
+    margin-right: 15px;
+}
+
+.npr_rL_it_title a {
+    font: 500 14px / 18px var(--global-item-headline-font);
+    letter-spacing: 0.5px;
+}
+
+.npr_rL_td_li:hover .npr_rL_it_title a {
+    color: #2c06d4;
+}
+
+.npr_published {
+    margin: 5px 0 0;
+}
+
+.npr_published .npr_time {
+    font: 400 12px / 18px var(--global-item-tag-font);
+    color: var(--global-item-publish-time-color);
+}
+
+@media (max-width: 768px) {
+    .npr_rL_td_thumb img {
+        display: block;
+        margin: 0;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .npr_rL_it_title a {
+        padding: 5px 0 0;
+        display: block;
+    }
+}
+
+@media (max-width: 530px) {
+    .npr_rL_td_headLine .npr_td_title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 460px) {
+    .npr_rL_td_headLine .npr_td_title {
+        font-size: 14px;
+    }
+}
+/* End Entertainment Area */
+
+
+
+
+
+
+/* End Global Right Layout Media Section Design */
