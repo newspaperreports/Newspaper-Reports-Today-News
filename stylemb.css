@@ -84,7 +84,7 @@ Contact:     asupdatemedia518@gmail.com
     justify-content: space-between;
     border-bottom: 3px solid rgb(0, 152, 254);
     position: relative;
-    height: 50px;
+    height: auto;
 }
 
 .mb_tMenu_icon {
