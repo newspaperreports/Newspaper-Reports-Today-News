@@ -969,7 +969,8 @@ a {
 
 /* Start Main Footer Section Design */
 .mainFooter_ct {
-    background-color: var(--gbMenuBg-color);
+/*     background-color: var(--gbMenuBg-color); */
+    background-color: #f52f5a;
 }
 
 .mainFooter_info {
@@ -988,8 +989,7 @@ a {
 }
 
 .mainFooter_info a {
-/*  color: var(--global-cg-link-color); */
-    background-color: #f52f5a;
+    color: var(--global-cg-link-color);
 }
 
 .mainFooter_info img {
