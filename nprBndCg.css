@@ -1,0 +1,227 @@
+/* 
+-----------------------------------------------
+Newspaper Reports Template Style
+Name:        Newspaper Reports
+License:     Premium Version
+Version:     3.0
+Author:      Newspaper Reports
+Author Url:  https://www.newspaperreports.com
+Contact:     asupdatemedia518@gmail.com
+----------------------------------------------- */
+
+:root {
+    --global-cg-link-font: 700 14px / 28px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-author-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-author-font-color: #000;
+    --global-asM-ads-author-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-asM-ads-author-color: #626262;
+    --global-asM-ads-author-hover-color: #b60a7c;
+    --global-nprAS-hd-ads-content: 'Advertisement - scroll for more content';
+    --global-nprAS-hd-ads-onylyContent: 'Advertiser';
+    --global-nprAS-hd-ads-color: #787878;
+    --global-nprAS-hd-ads-font: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --font-family-global: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-item-headline-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-top-headlines-font: 'Georgia Pro', Georgia, 'Droid Serif', serif;
+    --global-item-hero-headline-color: #303030;
+    --global-item-headline-color: #000;
+    --global-item-headline-hover-color: #626262;
+    --global-item-description-font: 'Georgia Pro', Georgia, 'Droid Serif', serif;
+    --global-item-description-color: #303030;
+    --global-item-description-hover-color: #575050fb;
+    --global-item-tag-font: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-item-tag-color: #c00909;
+    --global-item-publish-time-color: #626262;
+    --global-border-any-side-color: #c2c2c2;
+    --global-third-party-athor-font: 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    --global-third-party-athor-color: #626262;
+    --txt-whi-color: #ffffff;
+    --txt-headline-bg-white: #FFFFFF;
+    --txt-bl-color: #000;
+    --gbMenuBg-color: #303030;
+    --cgHover-color: #ff00bf;
+    --hero-pTitleHover-color: #01eeff;
+    --btnBx-color: #04AA6D;
+    --global-cg-link-color: #fff;
+    --global-cg-link-hover-color: #00FF7F;
+    --global-border-top-color: rgb(0, 152, 254);
+    
+}
+
+.npr_bnd_ct {
+    margin-bottom: 30px;
+}
+
+.npr_bnd_items {
+    margin-bottom: 30px;
+}
+
+.npr_bnd_dt {
+    position: relative;
+    border-top: 5px solid #ff00bf;
+    border-right: 5px solid #ff00bf;
+}
+
+.npr_bndBusness_bd_clr {
+    border-top: 5px solid #19b969;
+    border-right: 5px solid #19b969;
+}
+.npr_bndPolitics_bd_clr {
+    border-top: 5px solid #0e98d8;
+    border-right: 5px solid #0e98d8;
+}
+.npr_bndSports_bd_clr {
+    border-top: 5px solid #2014c4;
+    border-right: 5px solid #2014c4;
+}
+.npr_bndMoney_bd_clr {
+    border-top: 5px solid #1eac1e;
+    border-right: 5px solid #1eac1e;
+}
+.npr_bndHealth_bd_clr {
+    border-top: 5px solid #df0a15;
+    border-right: 5px solid #df0a15;
+}
+.npr_bndJobs_bd_clr {
+    border-top: 5px solid #0a78df;
+    border-right: 5px solid #0a78df;
+}
+.npr_bndShop_bd_clr {
+    border-top: 5px solid #367e68;
+    border-right: 5px solid #367e68;
+}
+.npr_bndLife_bd_clr {
+    border-top: 5px solid #b9207f;
+    border-right: 5px solid #b9207f;
+}
+/* ------- */
+
+.npr_clear {
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.npr_bnd_headline::before {
+    content: 'Politics';
+    position: absolute;
+    top: -18px;
+    left: 0;
+    padding-right: 15px;
+    font: 700 26px / 28px var(--global-top-headlines-font);
+    background-color: #fff;
+}
+
+.npr_bnd_hL_world::before {
+    content: 'World';
+}
+.npr_bnd_hL_business::before {
+    content: 'Business';
+}
+.npr_bnd_hL_politics::before {
+    content: 'Politics';
+}
+.npr_bnd_hL_sports::before {
+    content: 'Sports';
+}
+.npr_bnd_hL_money::before {
+    content: 'Money';
+}
+.npr_bnd_hL_health::before {
+    content: 'Health';
+}
+.npr_bnd_hL_jobs::before {
+    content: 'Jobs';
+}
+.npr_bnd_hL_shop::before {
+    content: 'Shop';
+}
+.npr_bnd_hL_life::before {
+    content: 'Life Style';
+}
+.npr_bnd_hL_npr::before {
+    content: 'Newspaper';
+}
+.npr_bnd_hL_us::before {
+    content: 'U.S. News';
+}
+.npr_bnd_hL_tech::before {
+    content: 'Tech';
+}
+/* ------------ */
+
+.npr_bnd_title {
+    padding-right: 15px;
+    /* width: 70%; */
+}
+
+.npr_bnd_title .npr_bnd_link {
+    display: block;
+    font: 700 14px / 18px var(--global-item-headline-font);
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--global-border-any-side-color);
+    margin-bottom: 10px;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+.npr_bnd_thumb {
+    width: 30%;
+    height: 180px;
+    max-height: 200px;
+    margin-right: 15px;
+    overflow: hidden;
+    position: sticky;
+    top: 100px;
+}
+
+.npr_bnd_thumb img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+}
+
+.npr_bnd_m_link {
+    text-align: right;
+    font: 700 14px / 16px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+    margin-top: 5px;
+}
+
+.npr_bnd_m_link a:hover {
+    color: var(--global-item-tag-color);
+}
+
+.npr_bnd_m_link span {
+    padding-left: 5px;
+}
+
+.npr_bnd_m_link span .npr_bnd_arrow {
+    vertical-align: middle;
+    font-size: 20px;
+}
+/* ------ */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .npr_bnd_title {
+        width: 70%;
+    }
+
+    .npr_bnd_title .npr_bnd_link {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 768px) {
+    .npr_bnd_thumb {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .npr_bnd_thumb {
+        width: 100%;
+    }
+}
