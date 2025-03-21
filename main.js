@@ -7,6 +7,31 @@ function closeWorld() {
 };
 // End Global Search Icon //
 
+// Start NPR Host Nav List Open //
+function openHostNavas(event) {
+    event.stopPropagation(); // Prevent closing when clicking the icon
+    let nav = document.getElementById("nprHostNavOpen");
+
+    // Toggle Logic: যদি show থাকে, তাহলে hide করবে, না থাকলে show করবে
+    if (nav.style.display === "none" || nav.style.display === "") {
+        nav.style.display = "block"; // Show the div
+    } else {
+        nav.style.display = "none"; // Hide the div
+    }
+}
+
+// Hide when clicking outside
+document.addEventListener("click", function(event) {
+    let nav = document.getElementById("nprHostNavOpen");
+    let icon = document.querySelector(".npr_host_nav_icon");
+
+    // If clicked outside the menu and icon, hide it
+    if (nav.style.display === "block" && !nav.contains(event.target) && !icon.contains(event.target)) {
+        nav.style.display = "none";
+    }
+});
+// End NPR Host Nav List Open //
+
 
 // Responsive Mobile Script Area //
 function openMbCgList() {
