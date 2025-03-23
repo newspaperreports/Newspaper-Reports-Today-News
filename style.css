@@ -620,7 +620,7 @@ a {
     font: 700 14px / 18px var(--global-item-tag-font);
 }
 
-@media (min-width: 400px) and (max-width: 820px) {
+@media (min-width: 320px) and (max-width: 820px) {
     .asM_section_1 {
         flex-direction: column;
     }
@@ -696,7 +696,7 @@ a {
     
 }
 
-@media (min-width: 400px) and (max-width: 820px) {
+@media (min-width: 320px) and (max-width: 820px) {
     .asM_center_info {
         width: 100%;
         padding: 0;
@@ -707,7 +707,7 @@ a {
     }
 }
 
-@media (min-width: 400px) and (max-width: 850px) {
+@media (min-width: 320px) and (max-width: 850px) {
     .asM_ct_item_2_dt {
         width: 100%;
     }
@@ -755,7 +755,7 @@ a {
 
 }
 
-@media (min-width: 400px) and (max-width:600px) {
+@media (min-width: 320px) and (max-width:600px) {
     .asM_ct_item_3_info {
         flex-wrap: wrap;
     }
