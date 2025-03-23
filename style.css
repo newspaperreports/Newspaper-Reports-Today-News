@@ -727,7 +727,7 @@ a {
     margin-right: 15px;
     width: 180px;
     overflow: hidden;
-    /* height: 150px; */
+    max-height: 150px;
 }
 
 .asM_ct_item_3_thumb img {
@@ -758,7 +758,7 @@ a {
     .asM_ct_item_3_thumb {
         margin: auto;
         width: 100%;
-        height: auto;
+        max-height: 100%;
     }
 
     .asM_ct_item_3_headLine {
