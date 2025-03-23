@@ -707,15 +707,10 @@ a {
     }
 }
 
-@media (min-width: 320px) and (max-width: 850px) {
-    .asM_ct_item_2_dt {
-        width: 100%;
-    }
-
-    .asM_ct_item_2_thumb img {
+@media (max-width: 820px) {
+    .asM_ct_item_2_thumb {
         height: auto;
     }
-    
 }
 
 .asM_ct_item_3_ct {
