@@ -167,8 +167,8 @@ Contact:     asupdatemedia518@gmail.com
 
 .npr_bnd_thumb {
     width: 30%;
-    height: 180px;
-    max-height: 200px;
+    height: 150px;
+    max-height: 150px;
     margin-right: 15px;
     overflow: hidden;
     position: sticky;
@@ -186,6 +186,11 @@ Contact:     asupdatemedia518@gmail.com
     text-align: right;
     font: 700 14px / 16px 'Unify Sans', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
     margin-top: 5px;
+}
+
+.npr_bnd_m_link a {
+    display: inline-block;
+    padding: 3px 0 4px 3px;
 }
 
 .npr_bnd_m_link a:hover {
