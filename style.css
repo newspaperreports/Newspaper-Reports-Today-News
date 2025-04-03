@@ -214,7 +214,7 @@ a {
 }
 
 .topNavbar .topHd_cg_link:hover span {
-    color: #0c08ebee;
+    opacity: 0.8;
 }
 
 /* User Register Area Design */
