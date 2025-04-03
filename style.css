@@ -190,21 +190,31 @@ a {
 }
 
 .topNavbar .topHd_cg_link {
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: black;
-    padding: 5px 10px;
-    font: 600 12px / 14px var(--global-author-font);
-    position: relative;
+    color: #fff;
+    padding: 5px 15px;
+    font: 600 14px / 14px var(--global-author-font);
+    fill: #303030;
+    border-radius: 0 20px;
+}
+
+.asNpr_tpHd_hm_bg {
+    background-color: #2e0de7;
+}
+.asNpr_tpHd_sv_bg {
+    background-color: #fc0909;
+}
+.asNpr_tpHd_cs_bg {
+    background-color: #000;
+}
+.asNpr_tpHd_pf_bg {
+    background-color: #186780;
+}
+.asNpr_tpHd_ct_bg {
+    background-color: #cf0f6f;
 }
 
 .topNavbar .topHd_cg_link:hover span {
     color: #0c08ebee;
-}
-
-.topHd_cg_link .topHd_cg_icon {
-    font-size: 16px;
 }
 
 /* User Register Area Design */
