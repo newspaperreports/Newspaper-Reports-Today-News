@@ -534,10 +534,9 @@ a {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 870px) {
     .topHeader_ct {
         display: none;
-        
     }
 
     .as_responsive_area {
