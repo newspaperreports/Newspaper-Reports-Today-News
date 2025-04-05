@@ -82,7 +82,6 @@ Contact:     asupdatemedia518@gmail.com
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 3px solid rgb(0, 152, 254);
     position: relative;
     height: auto;
 }
