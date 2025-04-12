@@ -189,6 +189,7 @@ Contact:     asupdatemedia518@gmail.com
 }
 
 .npr_rL_td_li {
+    display: table;
     padding-bottom: 15px;
     border-bottom: 1px solid var(--global-border-any-side-color);
     margin-bottom: 15px;
