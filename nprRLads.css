@@ -79,6 +79,7 @@ Contact:     asupdatemedia518@gmail.com
     content: var(--global-nprAS-hd-ads-onylyContent, 'Advertiser');
     font: 500 12px / 18px var(--global-nprAS-hd-ads-font);
     color: var(--global-nprAS-hd-ads-color);
+    display: block;
 }
 
 
