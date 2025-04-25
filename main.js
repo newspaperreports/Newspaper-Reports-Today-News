@@ -1,10 +1,32 @@
-function openSearch() {
-    document.getElementById('searchWorld').style.width = "100%";
-};
+document.addEventListener("DOMContentLoaded", () => {
+    const searchIcon = document.getElementById("openSearch_bx");
+    const searchForm = document.getElementById("searchWorld");
+    const searchInput = searchForm.querySelector("input");
 
-function closeWorld() {
-    document.getElementById('searchWorld').style.width = "0%";
-};
+    function toggleSearchForm() {
+        const isVisible = searchForm.style.display === "flex";
+        searchForm.style.display = isVisible ? "none" : "flex";
+
+        if (!isVisible) {
+            // ফর্ম শো হলে ইনপুট ফোকাস করো
+            setTimeout(() => {
+                searchInput.focus(); // অথবা searchInput.select();
+            }, 0);
+        }
+    }
+
+    searchIcon.addEventListener("click", (event) => {
+        event.stopPropagation();
+        toggleSearchForm();
+    });
+
+    document.addEventListener("click", (event) => {
+        const isClickInside = searchForm.contains(event.target) || searchIcon.contains(event.target);
+        if (!isClickInside) {
+            searchForm.style.display = "none";
+        }
+    });
+});
 // End Global Search Icon //
 
 // Start NPR Host Nav List Open //
