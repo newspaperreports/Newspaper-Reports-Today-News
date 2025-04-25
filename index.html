@@ -831,17 +831,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <!-- Search World Area-->
                                                     <div class="gSearch_area">
                                                         <div class="gSearch_icon">
-                                                            <i class="fa fa-search" onclick="openSearch()" title="Search"></i>
+                                                            <i class="fa fa-search" id="openSearch_bx" onclick="openSearch()" title="Search"></i>
                                                         </div>
-                                                        <div id="searchWorld" class="gSearch_btn d-flex">
-                                                            <div class="search_dt d-flex">
-                                                                <input role="search" class="searchBx" type="search" placeholder="What we can help you find?">
-                                                                <a href="https://www.newspaperreports.com" target="_self" title="Search World">
-                                                                    <i class="fa fa-arrow-circle-right"></i>
-                                                                </a>
-                                                                <i id="closeSearch" onclick="closeWorld()" class="fa fa-close"></i>
-                                                            </div>
-                                                        </div>
+                                                        <form id="searchWorld" class="gSearch_btn d-flex" action="/search" role="search" method="get" autocomplete="off">
+                                                            <input class="searchBx" type="search" role="search" name="q" placeholder="What we can help you find?" inputmode="search" autocomplete="off" required mozactionhint="search" enterkeyhint="search" aria-label="Search query">
+                                                            <button class="asSearchSubmit" title="Search World" aria-label="Submit">
+                                                                <svg class="asSearchIcon" viewBox="0 0 18 18">
+                                                                    <path d="M12.28 9.76H2V7.74h10.28l-2.23-2.31L11.43 4 16 8.75l-4.57 4.75-1.38-1.43 2.23-2.31z"></path>
+                                                                </svg>
+                                                            </button>
+                                                        </form>
                                                     </div>
                                                     <!-- Subscription Area -->
                                                     <div class="subscribe_area">
