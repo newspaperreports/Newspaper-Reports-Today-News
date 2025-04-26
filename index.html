@@ -720,7 +720,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                             <li>
                                                 <a href="https://www.newspaperreports.com" target="_self">More</a>
                                             </li>
-                            
                                             <!-- Start Mobile User Area -->
                                             <div class="mb_user_area">
                                                 <div class="mb_user_ct">
@@ -833,9 +832,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                         <div class="gSearch_icon">
                                                             <i class="fa fa-search" id="openSearch_bx" onclick="openSearch()" title="Search"></i>
                                                         </div>
-                                                        <form id="searchWorld" class="gSearch_btn d-flex" action="/search" role="search" method="get" autocomplete="off">
+                                                        <form id="searchWorld" class="gSearch_btn d-flex" target="_self" action="https://www.google.com/search" role="search" method="get" autocomplete="off">
                                                             <input class="searchBx" type="search" role="search" name="q" placeholder="What we can help you find?" inputmode="search" autocomplete="off" required mozactionhint="search" enterkeyhint="search" aria-label="Search query">
-                                                            <button class="asSearchSubmit" title="Search World" aria-label="Submit">
+                                                            <input type="hidden" name="sitesearch" value="newspaperreports.com">
+                                                            <button class="asSearchSubmit" type="submit" title="Search World" aria-label="Submit">
                                                                 <svg class="asSearchIcon" viewBox="0 0 18 18">
                                                                     <path d="M12.28 9.76H2V7.74h10.28l-2.23-2.31L11.43 4 16 8.75l-4.57 4.75-1.38-1.43 2.23-2.31z"></path>
                                                                 </svg>
@@ -1426,7 +1426,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                                
                                                             <!-- End -->
                                                         </div>
                                                     </div>
@@ -1434,7 +1433,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                              </div>
                                         </div>
                                     </nav>
-
                                 </div>
                             </div>
                         </div>
@@ -1468,7 +1466,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </div>
     <!-- End AS NPR Global Ads Section -->
-
     <!-- Start Main Global Section -->
     <container>
         <main class="main_global_section">
