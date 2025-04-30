@@ -449,7 +449,6 @@ a {
     font: var(--global-cg-link-font);
 }
 
-
 /* Global NPR Host Nav Dropdown Menu Design */
 .nmp_host_nav {
     display: none;
@@ -552,12 +551,10 @@ a {
 }
 /* End Responsive Mobile Menu Section Design */
 
-
-
 /* Start Main Global Section Design */
 .main_global_section {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1024px;
     margin: 0 auto;
     /* padding-top: 20px; */
     display: flex;
@@ -1058,7 +1055,7 @@ a {
 
 .mainFooter_info {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1024px;
     margin: auto auto;
     display: flex;
     flex-wrap: wrap;
