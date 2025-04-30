@@ -955,8 +955,8 @@ a {
 
 
 /* Start Offering The Best Deal Section Design */
-.bestDeal_ct{
-    margin-bottom: 20px;
+.asNpr_best_deal {
+    margin: 0 0 20px;
 }
 
 .bestDeal_title {
@@ -967,85 +967,61 @@ a {
     font: italic 700 26px / 28px var(--global-top-headlines-font);
 }
 
-.bestDeal_info {
-    gap: 20px;
-}
-
-.bD_item_bx {
-    width: 50%;
-    height: auto;
-    padding: 10px 10px 20px;
-    box-shadow: 0px 0px 5px #000;
-    border-radius: 3px;
+.asNpr_best_deal .asNpr_bd_ct a {
+    display: flex;
+    gap: 5px;
+    padding: 20px;
+    flex-flow: column;
+    align-items: center;
     text-align: center;
-    transition: transform .2s ease-in-out;
+    border: 1px solid var(--global-border-any-side-color);
+    box-shadow: 0px 0px 5px #000;
+    transition: transform .3s ease-in-out;
 }
 
-.bD_item_bx:hover {
+.asNpr_bd_ct a:hover {
     background-color: #ddd;
     transform: scale(1.03);
     cursor: pointer;
 }
 
-.bD_item_icon .fas {
+.asNpr_bd_ct .fas {
     font-size: 18px;
 }
 
-.bD_item_headLine {
-    margin-bottom: 10px;
+.asNpr_bd_ct p {
+    font: 16px / 18px var(--global-item-description-font);
 }
 
-.bD_search_btn {
-    margin-top: 20px;
+.asNpr_best_deal .asNpr_bd_ct {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
 }
 
-.bD_search_btn a {
+.asNpr_bd_ct button {
+    font: 600 14px / 18px var(--global-item-headline-font);
+    cursor: pointer;
+    margin-top: 10px;
     border: 1px solid #000;
     padding: 5px 10px;
-    margin-top: 10px;
     border-radius: 3px;
     letter-spacing: 0.8px;
-    font: 600 14px / 18px var(--global-item-headline-font);
 }
 
-.bD_search_btn a:hover {
+.asNpr_bd_ct button:hover {
     background: #1c8651;
     color: #fff;
     border-color: #1c8651;
 }
 
-@media (max-width: 1024px) {
-    .bestDeal_info {
-        flex-wrap: wrap;
-    }
-
-    .bD_item_bx {
-        flex: 40%;
-    }
-}
-
-@media (max-width: 600px) {
-    .bD_item_bx {
-        flex: 100%;
-    }
-}
-
-@media (max-width: 570px) {
-    .bestDeal_title {
-        font: 700 22px / 28px var(--global-item-headline-font);
-    }
-}
-
-@media (max-width: 460px) {
-    .bestDeal_title {
-        font: 700 20px / 28px var(--global-item-headline-font);
+@media (max-width: 678px) {
+    .asNpr_best_deal .asNpr_bd_ct {
+        grid-template-columns: auto;
     }
 }
 /* End Offering The Best Deal Section Design */
-
 /* End Main Global Section Design */
-
-
 
 /* Start Main Footer Section Design */
 .mainFooter_ct {
