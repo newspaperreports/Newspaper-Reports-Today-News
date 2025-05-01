@@ -61,7 +61,7 @@ window.addEventListener("load", function () {
       if (adContainer) {
         adContainer.innerHTML = `
           <a href="${ads[index].link}" target="_blank" rel="noopener">
-            <img src="${ads[index].image}" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
+            <img src="${ads[index].image}" loading="lazy" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
           </a>
         `;
         index = (index + 1) % ads.length;
@@ -142,7 +142,7 @@ window.addEventListener("load", function () {
     if (adContainer) {
       adContainer.innerHTML = `
         <a href="${ads[index].link}" target="_blank" rel="noopener">
-          <img src="${ads[index].image}" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
+          <img src="${ads[index].image}" loading="lazy" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
         </a>
       `;
       index = (index + 1) % ads.length;
@@ -222,7 +222,7 @@ window.addEventListener("load", function () {
     if (adContainer) {
       adContainer.innerHTML = `
         <a href="${ads[index].link}" target="_blank" rel="noopener">
-          <img src="${ads[index].image}" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
+          <img src="${ads[index].image}" loading="lazy" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
         </a>
       `;
       index = (index + 1) % ads.length;
@@ -302,7 +302,7 @@ window.addEventListener("load", function () {
     if (adContainer) {
       adContainer.innerHTML = `
         <a href="${ads[index].link}" target="_blank" rel="noopener">
-          <img src="${ads[index].image}" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
+          <img src="${ads[index].image}" loading="lazy" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
         </a>
       `;
       index = (index + 1) % ads.length;
@@ -382,7 +382,7 @@ window.addEventListener("load", function () {
     if (adContainer) {
       adContainer.innerHTML = `
         <a href="${ads[index].link}" target="_blank" rel="noopener">
-          <img src="${ads[index].image}" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
+          <img src="${ads[index].image}" loading="lazy" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
         </a>
       `;
       index = (index + 1) % ads.length;
@@ -462,7 +462,7 @@ window.addEventListener("load", function () {
     if (adContainer) {
       adContainer.innerHTML = `
         <a href="${ads[index].link}" target="_blank" rel="noopener">
-          <img src="${ads[index].image}" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
+          <img src="${ads[index].image}" loading="lazy" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
         </a>
       `;
       index = (index + 1) % ads.length;
@@ -542,7 +542,7 @@ window.addEventListener("load", function () {
     if (adContainer) {
       adContainer.innerHTML = `
         <a href="${ads[index].link}" target="_blank" rel="noopener">
-          <img src="${ads[index].image}" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
+          <img src="${ads[index].image}" loading="lazy" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
         </a>
       `;
       index = (index + 1) % ads.length;
@@ -622,7 +622,7 @@ window.addEventListener("load", function () {
     if (adContainer) {
       adContainer.innerHTML = `
         <a href="${ads[index].link}" target="_blank" rel="noopener">
-          <img src="${ads[index].image}" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
+          <img src="${ads[index].image}" loading="lazy" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
         </a>
       `;
       index = (index + 1) % ads.length;
@@ -702,7 +702,7 @@ window.addEventListener("load", function () {
     if (adContainer) {
       adContainer.innerHTML = `
         <a href="${ads[index].link}" target="_blank" rel="noopener">
-          <img src="${ads[index].image}" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
+          <img src="${ads[index].image}" loading="lazy" alt="${ads[index].alt}" style="width: 100%; max-width: 728px;" />
         </a>
       `;
       index = (index + 1) % ads.length;
