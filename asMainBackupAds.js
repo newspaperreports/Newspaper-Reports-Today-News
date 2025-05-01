@@ -83,7 +83,7 @@ window.addEventListener("load", function () {
     // ✅ অ্যাড কনটেইনারে HTML বসানো হচ্ছে
     adContainer.innerHTML = `
       <a href="${ad.link}" target="_blank" rel="noopener">
-        <img src="${ad.image}" alt="${ad.alt}" style="max-width:100%;"/>
+        <img src="${ad.image}" loading="lazy" alt="${ad.alt}" style="max-width:100%;"/>
       </a>
     `;
   }
@@ -153,7 +153,7 @@ window.addEventListener("load", function () {
     // ✅ অ্যাড কনটেইনারে HTML বসানো হচ্ছে
     adContainer.innerHTML = `
       <a href="${ad.link}" target="_blank" rel="noopener">
-        <img src="${ad.image}" alt="${ad.alt}" style="max-width:100%;"/>
+        <img src="${ad.image}" loading="lazy" alt="${ad.alt}" style="max-width:100%;"/>
       </a>
     `;
   }
@@ -223,7 +223,7 @@ window.addEventListener("load", function () {
     // ✅ অ্যাড কনটেইনারে HTML বসানো হচ্ছে
     adContainer.innerHTML = `
       <a href="${ad.link}" target="_blank" rel="noopener">
-        <img src="${ad.image}" alt="${ad.alt}" style="max-width:100%;"/>
+        <img src="${ad.image}" loading="lazy" alt="${ad.alt}" style="max-width:100%;"/>
       </a>
     `;
   }
@@ -293,7 +293,7 @@ window.addEventListener("load", function () {
     // ✅ অ্যাড কনটেইনারে HTML বসানো হচ্ছে
     adContainer.innerHTML = `
       <a href="${ad.link}" target="_blank" rel="noopener">
-        <img src="${ad.image}" alt="${ad.alt}" style="max-width:100%;"/>
+        <img src="${ad.image}" loading="lazy" alt="${ad.alt}" style="max-width:100%;"/>
       </a>
     `;
   }
@@ -363,7 +363,7 @@ window.addEventListener("load", function () {
     // ✅ অ্যাড কনটেইনারে HTML বসানো হচ্ছে
     adContainer.innerHTML = `
       <a href="${ad.link}" target="_blank" rel="noopener">
-        <img src="${ad.image}" alt="${ad.alt}" style="max-width:100%;"/>
+        <img src="${ad.image}" loading="lazy" alt="${ad.alt}" style="max-width:100%;"/>
       </a>
     `;
   }
@@ -433,7 +433,7 @@ window.addEventListener("load", function () {
     // ✅ অ্যাড কনটেইনারে HTML বসানো হচ্ছে
     adContainer.innerHTML = `
       <a href="${ad.link}" target="_blank" rel="noopener">
-        <img src="${ad.image}" alt="${ad.alt}" style="max-width:100%;"/>
+        <img src="${ad.image}" loading="lazy" alt="${ad.alt}" style="max-width:100%;"/>
       </a>
     `;
   }
@@ -503,7 +503,7 @@ window.addEventListener("load", function () {
     // ✅ অ্যাড কনটেইনারে HTML বসানো হচ্ছে
     adContainer.innerHTML = `
       <a href="${ad.link}" target="_blank" rel="noopener">
-        <img src="${ad.image}" alt="${ad.alt}" style="max-width:100%;"/>
+        <img src="${ad.image}" loading="lazy" alt="${ad.alt}" style="max-width:100%;"/>
       </a>
     `;
   }
@@ -573,7 +573,7 @@ window.addEventListener("load", function () {
     // ✅ অ্যাড কনটেইনারে HTML বসানো হচ্ছে
     adContainer.innerHTML = `
       <a href="${ad.link}" target="_blank" rel="noopener">
-        <img src="${ad.image}" alt="${ad.alt}" style="max-width:100%;"/>
+        <img src="${ad.image}" loading="lazy" alt="${ad.alt}" style="max-width:100%;"/>
       </a>
     `;
   }
@@ -643,7 +643,7 @@ window.addEventListener("load", function () {
     // ✅ অ্যাড কনটেইনারে HTML বসানো হচ্ছে
     adContainer.innerHTML = `
       <a href="${ad.link}" target="_blank" rel="noopener">
-        <img src="${ad.image}" alt="${ad.alt}" style="max-width:100%;"/>
+        <img src="${ad.image}" loading="lazy" alt="${ad.alt}" style="max-width:100%;"/>
       </a>
     `;
   }
@@ -713,7 +713,7 @@ window.addEventListener("load", function () {
     // ✅ অ্যাড কনটেইনারে HTML বসানো হচ্ছে
     adContainer.innerHTML = `
       <a href="${ad.link}" target="_blank" rel="noopener">
-        <img src="${ad.image}" alt="${ad.alt}" style="max-width:100%;"/>
+        <img src="${ad.image}" loading="lazy" alt="${ad.alt}" style="max-width:100%;"/>
       </a>
     `;
   }
