@@ -226,7 +226,6 @@ Contact:     asupdatemedia518@gmail.com
 
 .npr_published .npr_time {
     font: 400 12px / 18px var(--global-item-tag-font);
-    color: var(--global-item-publish-time-color);
 }
 
 .asNprPost_tag {
