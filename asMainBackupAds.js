@@ -726,3 +726,102 @@ window.addEventListener("load", function () {
     }
   }, 3000);
 });
+
+// Eleven End Bottom Ads Newspaper Reports
+// পেজ পুরোপুরি লোড হওয়ার পর স্ক্রিপ্ট চালু হবে
+window.addEventListener("load", function () {
+
+  // ✅ আপনার সব অ্যাডের লিংক ও ছবি এখানে লিস্ট হিসেবে রাখা হলো
+  const ads = [
+    {
+      link: "https://www.newspaperreports.com",  // অ্যাড ১ এর লিংক
+      image: "https://i.pinimg.com/736x/c3/e1/09/c3e10937bca7c46d789c5c07825045c9.jpg",  // অ্যাড ১ এর ছবি
+      alt: "Shopping Watch Ali Express"  // অ্যাড ১ এর টেক্সট
+    },
+    {
+      link: "https://www.newspaperreports.com",
+      image: "https://i.pinimg.com/736x/75/23/d3/7523d3083e598dcd5e1ba767cb1356bf.jpg",
+      alt: "Shopping"
+    },
+    {
+      link: "https://www.newspaperreports.com",
+      image: "https://i.pinimg.com/736x/f0/ed/ef/f0edef7c6ba00b074ab01f3ca3fe3c87.jpg",
+      alt: "Life"
+    },
+    {
+      link: "https://www.newspaperreports.com",
+      image: "https://i.pinimg.com/736x/74/f3/00/74f300f715af9eb37668dfbdab2bad30.jpg",
+      alt: "Hunda"
+    },
+    {
+      link: "https://www.newspaperreports.com",
+      image: "https://i.pinimg.com/736x/46/ba/f6/46baf69d3efd4e557bf2e417932ba327.jpg",
+      alt: "Car"
+    },
+    {
+      link: "https://www.newspaperreports.com",
+      image: "https://i.pinimg.com/736x/8a/6d/b5/8a6db5a792e91424bc1a550338968253.jpg",
+      alt: "Science"
+    },
+    {
+      link: "https://www.newspaperreports.com",
+      image: "https://i.pinimg.com/736x/5f/8e/5e/5f8e5e8e21e8586638a5c337a534b6a2.jpg",
+      alt: "Ai Chat GPT 4"
+    },
+    {
+      link: "https://www.newspaperreports.com",
+      image: "https://i.pinimg.com/736x/fb/e3/c0/fbe3c0a1bd08af24bee01c87066760ce.jpg",
+      alt: "Open Ai"
+    },
+    {
+      link: "https://www.newspaperreports.com",
+      image: "https://i.pinimg.com/736x/d8/aa/04/d8aa046307c495370cb00c2ee4902dc3.jpg",
+      alt: "Money"
+    },
+    {
+      link: "https://www.newspaperreports.com",
+      image: "https://i.pinimg.com/736x/e8/c5/c0/e8c5c05bd47fbe964da64ffb2f3bd189.jpg",
+      alt: "Online Earning Tricks"
+    }
+  ];
+
+  const adContainer = document.getElementById("asEndBtmBackup_ads");
+
+  let lastIndex = -1; // ✅ পূর্বে দেখা অ্যাডের index (-1 মানে এখনো কিছু দেখা হয়নি)
+  let firstShown = false; // ✅ প্রথম অ্যাড দেখানো হয়েছে কিনা, এটা চেক করবো
+
+  function showAd() {
+    if (!adContainer || ads.length === 0) return;
+
+    let ad;
+
+    if (!firstShown) {
+      // ✅ প্রথমবার — ads[0] দেখাও
+      ad = ads[0];
+      lastIndex = 0; // ✅ সেট করি যেন পরবর্তীতে এটি সাথে তুলনা করা যায়
+      firstShown = true;
+    } else {
+      let randomIndex;
+      do {
+        randomIndex = Math.floor(Math.random() * ads.length); // ✅ ০ সহ সব ইন্ডেক্স রেনডম
+      } while (randomIndex === lastIndex && ads.length > 1); // ✅ যেন একই অ্যাড বারবার না আসে
+      lastIndex = randomIndex;
+      ad = ads[randomIndex];
+    }
+
+    // ✅ অ্যাড কনটেইনারে HTML বসানো হচ্ছে
+    adContainer.innerHTML = `
+      <a href="${ad.link}" target="_blank" rel="noopener">
+        <img src="${ad.image}" loading="lazy" alt="${ad.alt}" style="max-width:100%;"/>
+      </a>
+    `;
+  }
+
+  // ✅ ৩ সেকেন্ড পর চেক করা হবে গুগল অ্যাড লোড হয়েছে কিনা
+  setTimeout(function () {
+    if (adContainer && adContainer.offsetHeight === 0) {
+      showAd(); // ✅ প্রথম অ্যাড দেখাও
+      setInterval(showAd, 15000); // ✅ এরপর প্রতি ১৫ সেকেন্ডে নতুন অ্যাড দেখাও
+    }
+  }, 3000);
+});
