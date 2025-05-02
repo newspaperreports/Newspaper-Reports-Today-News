@@ -229,6 +229,10 @@ Contact:     asupdatemedia518@gmail.com
     color: var(--global-item-publish-time-color);
 }
 
+.asNprPost_tag {
+    color: var(--global-item-tag-color);
+}
+
 @media (max-width: 768px) {
     .npr_rL_td_thumb img {
         display: block;
