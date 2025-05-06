@@ -592,6 +592,7 @@ a {
     margin: 5px 0px;
     color: var(--global-item-tag-color);
     font: 700 12px / 14px var(--global-item-tag-font);
+    text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
