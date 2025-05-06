@@ -830,7 +830,7 @@ a {
     max-width: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1020px) {
     .forYou_items_ct {
         flex-wrap: wrap;
     }
@@ -867,10 +867,7 @@ a {
         height: auto;
     }
 }
-
 /* End For You News Area Design */
-
-
 /* Start Featured News Area Design */
 .featured_news_ct {
     margin-bottom: 50px;
