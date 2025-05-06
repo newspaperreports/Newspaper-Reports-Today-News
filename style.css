@@ -128,13 +128,13 @@ Contact:     asupdatemedia518@gmail.com
 }
 
 .author_name a,
-.author_data p {
+.author_data .publishedTime {
     color: var(--global-author-font-color);
     font: 600 12px / 14px var(--global-author-font);
     letter-spacing: .5px;
 }
 
-.author_data p::before {
+.author_data .publishedTime::before {
     content: '\f017';
     font-family: 'FontAwesome';
     padding-right: 5px;
