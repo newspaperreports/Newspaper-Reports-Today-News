@@ -207,7 +207,7 @@ Contact:     asupdatemedia518@gmail.com
 }
 /* ------ */
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 768px) {
     .npr_bnd_title {
         width: 70%;
     }
