@@ -61,9 +61,7 @@ Contact:     asupdatemedia518@gmail.com
     --global-cg-link-color: #fff;
     --global-cg-link-hover-color: #00FF7F;
     --global-border-top-color: rgb(0, 152, 254);
-    
 }
-
 
 /* AS - Newpaper Reports Ads Left Area Design */
 .asM_ads_ct {
@@ -741,9 +739,9 @@ a {
 
 .asM_ct_item_3_thumb {
     margin-right: 15px;
-    width: 180px;
+    width: 130px;
     overflow: hidden;
-    max-height: 150px;
+    max-height: 130px;
 }
 
 .asM_ct_item_3_thumb img {
