@@ -812,6 +812,12 @@ a {
     font: 700 14px / 18px var(--global-item-headline-font);
 }
 
+.item_des_fY a {
+    display: none;
+    margin: 5px 0px 8px 0px;
+    font: 14px / 18px var(--global-item-description-font);
+}
+
 .fY_col_item_thumb {
     margin-right: 15PX;
 }
