@@ -905,7 +905,7 @@ a {
 }
 
 .item_des a {
-    display: none;
+    display: block;
     margin: 5px 0px 8px 0px;
     font: 14px / 18px var(--global-item-description-font);
 }
