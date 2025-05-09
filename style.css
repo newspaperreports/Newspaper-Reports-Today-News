@@ -779,10 +779,7 @@ a {
         width: 100%;
     }
 }
-
 /* End AS - Media Main Section Design */
-
-
 /* Start For You News Area Design */
 .forYouNews_ct {
     margin-bottom: 20px;
@@ -902,7 +899,7 @@ a {
 }
 
 .item_des a {
-    display: block;
+    display: none;
     margin: 5px 0px 8px 0px;
     font: 14px / 18px var(--global-item-description-font);
 }
