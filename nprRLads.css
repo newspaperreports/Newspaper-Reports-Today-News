@@ -137,7 +137,7 @@ Contact:     asupdatemedia518@gmail.com
     color: #1665cf;
 }
 
-@media (min-width: 560px) and (max-width: 750px) {
+@media (min-width: 560px) and (max-width: 768px) {
     .topHeadLine .npr_top_headLine span {
         padding-top: 5px;
         display: block;
